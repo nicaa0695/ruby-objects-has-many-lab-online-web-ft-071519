@@ -37,6 +37,7 @@ class Artist
     def @songs.each do |song|
       @song_count[song] = @songs.count(song)
     end
+  end
     @song_count
   end
 end 
