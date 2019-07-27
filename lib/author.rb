@@ -8,7 +8,7 @@ class Author
 
   def posts
     @posts
-    
+    .all.select{|song| song.artist == self}
   end
 
   def add_post(post)
