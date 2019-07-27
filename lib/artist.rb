@@ -10,7 +10,7 @@ class Artist
   end
 
   def songs
-    @songs << @@song_count
+    @songs << self
   end
 
   def artist
