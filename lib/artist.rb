@@ -10,7 +10,7 @@ class Artist
   end
 
   def songs
-    @songs
+    @songs << @@song_count
   end
 
   def artist
